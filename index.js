@@ -15,7 +15,24 @@ function fuzzyMatch(drivers,str)
     });
 }
 
-function matchName(drivers,str)
+const drivers1 = [
+        {
+          name: 'Bobby',
+          hometown: 'Pittsburgh' },
+        {
+          name: 'Sammy',
+          hometown: 'New York' } ,
+        {
+          name: 'Sally',
+          hometown: 'Cleveland' },
+        {
+          name: 'Annette',
+          hometown: 'Los Angeles' },
+        {
+          name: 'Bobby',
+          hometown: 'Tampa Bay' }
+      ];
+function matchName(drivers1,str)
 {
   
 }
