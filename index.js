@@ -34,9 +34,12 @@ const drivers1 = [
       ];
 function matchName(drivers1,str)
 {
-  
+  return drivers1.filter(driver1 => {
+    return driver1.name == str;
+  });
 }
 
 findMatching(drivers,"Bobby");
 findMatching(drivers, 'Susan');
 fuzzyMatch(drivers, 'sa');
+matchName(drivers1,str)
