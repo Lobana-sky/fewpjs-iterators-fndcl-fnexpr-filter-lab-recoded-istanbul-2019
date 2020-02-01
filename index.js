@@ -11,17 +11,8 @@ function fuzzyMatch(drivers,str)
 {
   
   return drivers.filter(drive => {
-    let all=[];
-    let i;
-      for(i=0;i<str.length ;i++ ){
-          if(drive.charAt(i).toUpperCase() != str.charAt(i).toUpperCase())
-          break;
-          
-          }
-          if(i==str.length)
-          {all.push(drive);}
-     return all;
-  });
+    return drive.charAt(0).toUpperCase() != str.charAt(0).toUpperCase())
+    });
 }
 
 function matchName(drivers,str)
